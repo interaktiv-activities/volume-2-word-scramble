@@ -104,7 +104,7 @@ function endGame() {
     if (roundIndex >= 7) { 
         document.getElementById("pass-end-screen").style.display = "flex";
 
-        const scrambled = "RkFURQ==";
+        const scrambled = "UklGVEdBVEU=";
         const secretCode = atob(scrambled);
 
         const secretMessage = document.getElementById("secret-message");
@@ -220,3 +220,4 @@ addEventListener('keypress', function (e){
         checkAnswer()
     }
 })
+
